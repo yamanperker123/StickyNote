@@ -1,12 +1,20 @@
 
 # StickyNote
-Abap Fiori  sticky note oluşturma 
+This project act as a simple sticky note application.
+## Features
+- The note has a title and a body section.
+- The title field is required.
+- For the message body, it is recommended to enter at least 50 words.
+- When click on the note, it becomes editable.
+- When click outside of the note, it switches back to read only mode.
+- Each note can have a background color.
+- The background color is selected from a color palette.
 
 ## Demo
-- ###  Create Sticky Note
+ ### 1.  Create Sticky Note
 https://github.com/user-attachments/assets/8a01b01e-781a-48ac-8f20-b8aef1803bd8
 
-- ###  Sticky Features
+ ### 2.  Sticky Features
 https://github.com/user-attachments/assets/0d6762d2-cc2b-41e1-bbaf-0b2b0bf41b5f
 
 ## Application Details
