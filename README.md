@@ -1,6 +1,6 @@
 
 # StickyNote
-This project act as a simple sticky note application.
+This project is an SAP Fiori application designed to function as a simple sticky note.
 ## Features
 - The note has a title and a body section.
 - The title field is required.
@@ -36,9 +36,7 @@ https://github.com/user-attachments/assets/0d6762d2-cc2b-41e1-bbaf-0b2b0bf41b5f
 |**Enable TypeScript**<br>False|
 |**Add Eslint configuration**<br>False|
 
-## sticky_notes
 
-An SAP Fiori application.
 
 ### Starting the generated app
 
