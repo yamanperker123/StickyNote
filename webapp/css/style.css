@@ -1,0 +1,55 @@
+.noteContainer {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.notePadding{
+padding: 2rem;
+}
+
+/* Sticky Note */
+.stickyNote {
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    
+}
+.stickyNote:hover {
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+    transform: translateY(-2px);
+}
+
+
+/*Note Title*/ 
+.noteTitle {
+    width: 100%;
+
+}
+
+ /*Note Text*/
+.noteBody {
+    width: 100%;
+    height: 100%;
+
+
+}
+/* Color Palette */
+.colorPalette {
+    align-self: center;
+
+    
+}
+
+.noteDeleteIcon {
+   margin-left: auto; 
+    
+}
+
+

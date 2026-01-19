@@ -1,0 +1,30 @@
+<mvc:View
+    controllerName="stickynotes.controller.MainView"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:ui="stickynotes.ui"
+>
+    <Page
+        id="idPage"
+        title="{i18n>title}"
+    >
+    <headerContent>
+        <Button
+            activeIcon=""
+            icon="sap-icon://add"
+            text="Add"
+            type="Emphasized"
+            
+        press="onAddButtonPress">
+            
+        </Button>
+    </headerContent>
+
+        <content>
+            <ui:NoteContainer id="noteContainer" press="onNoteContainerPress" >
+              
+            </ui:NoteContainer>
+        </content>
+
+    </Page>
+</mvc:View>
